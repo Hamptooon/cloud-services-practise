@@ -21,5 +21,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t breez97/flask-app:latest -f Dockerfile.web .
-          docker push breez97/flask-app:latest
+          docker build -t karachevigor21007/flask-app:latest -f Dockerfile.web .
+          docker push karachevigor21007/flask-app:latest
