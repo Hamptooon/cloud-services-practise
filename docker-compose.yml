@@ -26,3 +26,6 @@ services:
       - POSTGRES_DB=flask_db
     ports:
       - "5431:5432"
+
+
+
