@@ -107,7 +107,7 @@ def update_user(id):
 	user.email = data.get('email', user.email)
 	db.session.commit()
 	return jsonify({'message': 'User updated successfully'})
-# Удаление пользователя по iddwad
+# Удаление пользователя по iddwaddddddddd
 @app.route('/users/<int:id>', methods=['DELETE'])
 def delete_user(id):
 	user = User.query.get(id)
